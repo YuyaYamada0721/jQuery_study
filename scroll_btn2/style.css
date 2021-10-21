@@ -1,0 +1,27 @@
+#page-top {
+  /* static：初期値 */
+  /* fixed：画面の決まった位置に固定する */
+  /* relative：現在の位置を基準に相対的な位置を決める */
+  /* absolute：親要素を基準に絶対的な位置を決める */
+  position: fixed;
+  /* 画面の中央へ */
+  right: 50%;
+  bottom: -50%;
+  font-family: 'Hannotate TC', sans-serif;
+}
+
+#page-top a {
+  text-decoration: none;
+  color: #3f98ef;
+}
+
+/* 擬似要素 ::before： 学習する */
+/* 擬似要素 ::after： 学習する */
+
+body {
+  height: 2000px;
+}
+
+h1 {
+  text-align: center;
+}
