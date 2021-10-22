@@ -1,0 +1,14 @@
+#page-top {
+  position: fixed;
+  right: 50px;
+  bottom: -70px; /*アイコンの元々の位置*/
+  font-family: 'Hannotate TC', sans-serif;
+}
+
+#page-top {
+  text-decoration: none;
+}
+
+body {
+  height: 2000px;
+}
